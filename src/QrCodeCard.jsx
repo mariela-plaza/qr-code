@@ -1,7 +1,7 @@
-import "./App.css";
+import "./qrCodeCard.css";
 import qrLogo from "./assets/images/image-qr-code.png";
 
-function App() {
+function QrCodeCard() {
   return (
     <div className="card">
       <img className="qr-logo" src={qrLogo} alt="qr code" />
@@ -16,4 +16,4 @@ function App() {
   );
 }
 
-export default App;
+export default QrCodeCard;

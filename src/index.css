@@ -2,9 +2,15 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 100vh;
   width: 100vw;
+  height: 100vh;
   font-size: 15px;
   font-family: "Outfit", sans-serif;
   background-color: hsl(212, 45%, 89%);
+}
+
+#root {
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }

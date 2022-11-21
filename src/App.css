@@ -1,4 +1,33 @@
 .card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  flex-wrap: wrap;
+  width: 50%;
+  height: 90%;
+  padding: 1.5rem;
   background-color: white;
-  border-radius: 10px;
+  border-radius: 50px;
+}
+
+.qr-logo {
+  width: 100%;
+  border-radius: 30px;
+  margin-bottom: 1.5rem;
+}
+
+.qr-title {
+  text-align: center;
+  font-size: 1.85rem;
+  color: hsl(218, 44%, 22%);
+  font-weight: 700;
+  margin-bottom: -0.25rem;
+}
+
+.qr-subtitle {
+  text-align: center;
+  font-size: 1.2rem;
+  color: hsl(220, 15%, 55%);
+  font-weight: 400;
+  width: 85%;
 }
